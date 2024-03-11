@@ -5,9 +5,8 @@ import CreateUsers from "./CURD/CreateUsers";
 import EditPage from "./CURD/EditPage";
 
 const App = () => {
-  return (
-    
-
+  return (  
+  <div>
       <BrowserRouter>
       <Home/>
       <Routes>
