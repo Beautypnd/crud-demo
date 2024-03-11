@@ -21,7 +21,7 @@ export const EditPage = () => {
       .catch(() => {
         console.log("error");
       });
-  },[]);
+  },[obj.id]);
   let getName = (e) => {
     setName(e.target.value);
   }
